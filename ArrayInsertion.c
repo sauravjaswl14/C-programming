@@ -1,4 +1,5 @@
 #include<stdio.h>
+#include<conio.h>
 void main()                                               //[2,5,6,8,10]
 {
     int a[50],size,i,pos,num;
@@ -30,4 +31,5 @@ void main()                                               //[2,5,6,8,10]
             printf("%d ",a[i]);
         }
     }
+    getch();
 }
